@@ -2,7 +2,28 @@
 <FDL version="2.1">
   <Form id="test" width="1280" height="720" titletext="New Form">
     <Layouts>
-      <Layout height="720" mobileorientation="landscape" width="1280"/>
+      <Layout height="720" mobileorientation="landscape" width="1280">
+        <GroupBox id="GroupBox00" taborder="0" text="GroupBox00" left="264" top="52" width="530" height="352"/>
+        <Tab id="Tab00" taborder="1" tabindex="0" left="334" top="102" width="376" height="282">
+          <Tabpages>
+            <Tabpage id="Tabpage1" text="Tabpage1">
+              <Layouts>
+                <Layout>
+                  <Static id="Static00" taborder="0" text="Static00" left="34" top="25" width="104" height="28"/>
+                  <Static id="Static00_00" taborder="1" text="Static00" left="36" top="59" width="104" height="28"/>
+                  <Static id="Static00_01" taborder="2" text="Static00" left="36" top="105" width="104" height="28"/>
+                  <MaskEdit id="MaskEdit00" taborder="3" left="192" top="28" width="126" height="37"/>
+                  <MaskEdit id="MaskEdit00_00" taborder="4" left="192" top="65" width="126" height="37"/>
+                  <MaskEdit id="MaskEdit00_01" taborder="5" left="186" top="102" width="126" height="37"/>
+                  <Button id="Button00" taborder="6" text="Button00" left="50" top="170" width="112" height="48"/>
+                  <Button id="Button01" taborder="7" text="Button01" left="196" top="171" width="106" height="48"/>
+                </Layout>
+              </Layouts>
+            </Tabpage>
+            <Tabpage id="Tabpage2" text="Tabpage2"/>
+          </Tabpages>
+        </Tab>
+      </Layout>
     </Layouts>
   </Form>
 </FDL>
